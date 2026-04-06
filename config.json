@@ -1,0 +1,9 @@
+{
+  "source_dir": "C:\\Users\\azureuser\\Documents\\CSV Processor\\sqllog",
+  "done_dir": "C:\\Users\\azureuser\\Documents\\sqlshipper\\terminados",
+  "error_dir": "C:\\Users\\azureuser\\Documents\\sqlshipper\\errores",
+  "worker_count": 5,
+  "rabbitmq_url": "amqp://shipper:shipper123@13.86.114.224:5672/",
+  "task_queue": "sql_execution_tasks",
+  "rpc_timeout_seconds": 30
+}
